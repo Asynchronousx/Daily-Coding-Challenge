@@ -1,0 +1,10 @@
+Problem asked by Air BNB at their interview.
+
+A simple solution to the problem of finding the maximum sum of all the non-adjacent number from a list of integer,
+using a dynamic programming approach.
+
+Example:
+
+[2, 4, 6, 2, 5] -> Max non adjacent sum: 2+6+5 = 13
+[5, 1, 1, 5] -> Max non adjacent sum: 5+5 = 10 
+Etc..
