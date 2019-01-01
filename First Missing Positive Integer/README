@@ -1,6 +1,7 @@
 Problem asked by Stripe at their interview.
 
-A simple solution to the problem of the first missing positive integer, that request 
-to find the lowest positive integer that does not exist in the array in linear time (O(N)).
+A simple solution using the greedy approach to the problem of the first missing positive 
+integer, that request to find the lowest positive integer that does not exist in the array 
+in linear time (O(N)).
 
 Example: [3, 4, -1, 1] -> 2, [1,2,0] -> 3
