@@ -1,6 +1,6 @@
 Problem asked by Air BNB at their interview.
 
-A simple solution to the problem of finding the maximum sum of all the non-adjacent number from a list of integer,
+A solution to the problem of finding the maximum sum of all the non-adjacent number from a list of integer,
 using a dynamic programming approach.
 
 Example:
