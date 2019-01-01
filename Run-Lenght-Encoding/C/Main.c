@@ -59,11 +59,15 @@ char* decode(char* string) {
             //add to the multiplier
             multiplier[multiplierCounter++] = string[i];
 
+            //if next char occurrence isn't a number, time to translate
             if(!((string[i+1] - 0) < 65)) {
+                //for the lenght of the repeated time number of the letter
                 for(int j=0; j<atoi(multiplier); j++) {
+                    //print into the buffer the char
                     sprintf(decodedString + strlen(decodedString), "%c", string[i+1]);
                 }
-
+                 
+                //clean string and index
                 memset(multiplier, 0, strlen(multiplier));
                 multiplierCounter = 0;
             }
