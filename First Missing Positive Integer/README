@@ -1,6 +1,6 @@
 Problem asked by Stripe at their interview.
 
-A simple solution using the greedy approach to the problem of the first missing positive 
+A solution found using the greedy approach to the problem of the first missing positive 
 integer, that request to find the lowest positive integer that does not exist in the array 
 in linear time (O(N)).
 
