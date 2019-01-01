@@ -2,9 +2,6 @@ Problem asked by Amazon at their interview.
 
 A simple solution to the problem of the run-length encoding and decoding, a fast method to encode strings.
 The basic idea is to represent successive characters as single count of the occurrence of that
-character, and the character itself.
-
-Both encode and decode run in O(n).
-Implemented in Java and C.
+character, and the character itself, respecting encoding/decoding in O(N) time.
 
 Example: "AAAABBBCCD" should be encoded as: "4A3B2C1B".
