@@ -1,8 +1,8 @@
 Problem asked by Uber at their interview.
 
-A solution to the problem of the array of integers that return a new array such that each element at 
-index i of the new array is the product of all the numbers in the original array except i itself.
-Spice up: Don't use divisions.
+A solution to the problem of an array of integers that, taken in input and analized, create 
+a new array such that each element at index i of the new array is the product of all the numbers 
+in the original array except i itself. Spice up: Don't use divisions.
 
 Without the approach of the divisions, this problem was solved using recursion and trying to stay 
 within the O(N) time complexity, with O(1) space complexity because the change is made in-place.
