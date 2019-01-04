@@ -126,11 +126,10 @@ Node* get(List** root, int index) {
         int index_searched = 0;
 
 
-        while(index_searched < index && cur != NULL) {
+        while(index_searched++ < index && cur != NULL) {
             tmp = cur;
             cur = XOR_NEXT(prev, cur->npx);
             prev = tmp;
-            index_searched++;
         }
 
         if(index_searched != index) {
