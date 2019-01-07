@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class IntersectionList {
+public class Main {
     public static void main(String[] args) {
         //Note: LinkedList could hold <String>, <Float>, <Object>
         //as well, because the implementation is parametrized.
@@ -9,23 +9,23 @@ public class IntersectionList {
         LinkedList<Integer> secondList = new LinkedList<>();
 
         //Adding element to first list
-        firstList.add(1);
-        firstList.add(5);
-        firstList.add(2);
+        firstList.add(3);
         firstList.add(7);
-        firstList.add(4);
-        //List is: [ 1, 5, 2, 7, 4 ]
+        firstList.add(8);
+        firstList.add(10);
+        firstList.add(2);
+        //List is: [ 3, 7, 8, 10, 2 ]
 
         //Adding element to second list
+        secondList.add(99);
         secondList.add(1);
-        secondList.add(3);
-        secondList.add(2);
-        secondList.add(9);
-        secondList.add(7);
+        secondList.add(8);
         secondList.add(10);
-        //List is: [ 1, 3, 2, 9, 7, 10 ]
+        secondList.add(54);
 
-        //Intersection is: [ 1, 2, 7 ]
+        //List is: [ 99, 1, 8, 10, 54]
+
+        //Intersection is: [ 8, 10, 54 ]
 
         //Print first list
         System.out.print("First list is: ");
