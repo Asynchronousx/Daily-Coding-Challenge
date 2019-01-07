@@ -1,0 +1,3 @@
+Main.java: contains the main and the test demo.
+IntersectionList.java: contains the implementation of the linked list, it's method and the nodes
+Annotation.java: contains the annotation used to comment the code into the IntersectionList.java
