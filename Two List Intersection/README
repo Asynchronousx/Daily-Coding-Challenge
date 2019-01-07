@@ -1,0 +1,8 @@
+Problem asked by Google at their interview.
+
+A solution to the problem of given two linked list that intersect at some point, 
+find the intersecting nodes assuming that the lists are non-cyclical. 
+The solution to this problem was found using an internal hash table into the lists,
+adding a space complexity of O(M) where M is the number of the element of the lists,
+but reducing the time complexity from O(N+M) to O(N), where N is the number of the element
+of the biggest list.
