@@ -1,0 +1,16 @@
+Problem asked by Google at their interview.
+
+A solution to the problem of finding the unival tree node count.
+An unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+Given the root to a binary tree, count the number of unival subtrees.
+For example, the following tree has 5 unival subtrees:
+
+       0
+      / \
+ uni 1   0
+        / \
+  uni  1   0 uni 
+      / \
+ uni 1   1 uni 
+
+The solution is found in O(N) time complexity, needed to analyze all the nodes.
