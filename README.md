@@ -11,4 +11,4 @@ e.g: "aaaaaaaaa", then the complexity will be O(N^2).T
 The best case is when the string is composed by N different character: "abcdefghi", then O(N).
 The middle case is our target, and it will be composed by N character as: "aabacbebebe", with a time complexity of O(N * M).
 
-A solution in O(N) using character windows is coming.
+A solution in O(N) using character windows will be developed soon.
