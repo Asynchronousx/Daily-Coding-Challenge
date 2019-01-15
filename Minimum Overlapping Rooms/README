@@ -12,3 +12,7 @@ That's because:
 3rd interval |                 |---------------------| First room (because 0-50 finished) 
              |________________________________________   
              0      30    50  60    75              150     Total: 2 rooms
+             
+             
+The solution if found in O(N) linear time with a space complexity of O(N), because we memorize
+an additional queue to take track in a FIFO behaviour of the end intervals.
