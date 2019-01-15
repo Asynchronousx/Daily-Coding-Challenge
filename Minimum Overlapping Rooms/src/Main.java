@@ -71,6 +71,6 @@ public class Main {
 
         System.out.println("With classroom lectures intervals:");
         lecturesList.forEach((n) -> System.out.print(" [" + n.start() + "," + n.end() + "] "));
-        System.out.println("\nWe can have minimum " + nonOverlappingRoom(lecturesList) + " room to offers.");
+        System.out.println("\nWe need to have a minimum of " + nonOverlappingRoom(lecturesList) + " room to offer.");
     }
 }
