@@ -59,16 +59,19 @@ public class Main {
         List<Interval<Integer>> lecturesList = new ArrayList<>();
 
         //adding values to the list
+        lecturesList.add(new Interval<>(30,75));
+        lecturesList.add(new Interval<>(0,50));
+        lecturesList.add(new Interval<>(60,150));
+        
+        /* A more complex example
         lecturesList.add(new Interval<>(1,30));
         lecturesList.add(new Interval<>(20,35));
         lecturesList.add(new Interval<>(25,65));
         lecturesList.add(new Interval<>(22,32));
         lecturesList.add(new Interval<>(31,34));
         lecturesList.add(new Interval<>(2,10));
-
-
-        //our interval list: [(30,75), (0,50), (60,150)]
-
+        */
+        
         System.out.println("With classroom lectures intervals:");
         lecturesList.forEach((n) -> System.out.print(" [" + n.start() + "," + n.end() + "] "));
         System.out.println("\nWe need to have a minimum of " + nonOverlappingRoom(lecturesList) + " room to offer.");
