@@ -3,4 +3,10 @@ Problem asked by Facebook at their interview.
 A solution to the problem of: Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, 
 count the number of ways it can be decoded.
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
-This problem is solved in O(N) using a loop to the size of the string.
+This problem is solved in O(N) time complexity using a Dynamic Programming approach, and then O(N) additional
+space to store the memorization matrix of result.
+
+We can think of this problem as: Given a string S of numbers (e.g: "1234"), the solution to the problem of
+counting the ways it can be decoded is given by it's subproblems: thats because, with a String of lenght 0 or 1,
+0 or 1 should be returned. But with a string of size >=2, the solution to the S string of size N, is given by it's 
+subproblem at n-1 and n-2. This, applied to all the lenght of the string bring a dynamic programming solution.
