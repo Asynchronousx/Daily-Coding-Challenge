@@ -1,0 +1,14 @@
+This problem was asked by Snapchat at their interview.
+
+A solution to the problem of given a list of intervals with start and end time of 
+classroom lectures (possibly overlapping) find the minimum rooms of rooms required.
+
+For example, given an interval list: [(30,75), (0,50), (60,150)] the function should return 2.
+That's because:
+
+             |     
+1st interval |-------------| First room
+2nd interval |       |---------------| Second room
+3rd interval |                 |---------------------| First room (because 0-50 finished) 
+             |________________________________________   
+             0      30    50  60    75              150     Total: 2 rooms
