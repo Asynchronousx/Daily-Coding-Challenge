@@ -12,4 +12,4 @@ The **29th** is 271 but the **30th** is *307*.<br>
 
 Discovering the series behind the logic, we find that there is a multiplier to increase dinamically the sum and product of the perfect numbers.<br>
 The solution is: First Perfect Number + 9*Nth-1 + The series Multiplier, where the multiplier is given by: <br>
-1th: 9*1, 2th 9*2, 3th 9*3 etc.
+1th: 9 * 1, 2th 9 * 2, 3th 9 * 3 etc.
