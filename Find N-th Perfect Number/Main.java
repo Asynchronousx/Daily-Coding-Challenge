@@ -7,7 +7,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Integer whatNumberYouWouldKnow = 29;
+        Integer whatNumberYouWouldKnow = 10;
+        
+        //Number printed is 109
         System.out.println("The " + whatNumberYouWouldKnow + "N-th Perfect Number is: " + findNthPerfectNumber(whatNumberYouWouldKnow));
     }
 
